@@ -15,5 +15,7 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array.each {|i| i.to_s}
+  new_array = []
+  array.each {|i| i.to_s << new_array}
+  new_array
 end
