@@ -12,7 +12,6 @@ end
 
 def output_array(array)
   array.each {|i| puts i}
-  end
 end
 
 def return_string_array
