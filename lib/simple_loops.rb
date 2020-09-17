@@ -14,6 +14,7 @@ def output_array(array)
   array.each {|i| puts i}
 end
 
-def return_string_array
-  
+def return_string_array(array)
+  array.to_s
+  array
 end
