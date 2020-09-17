@@ -10,8 +10,9 @@ def loop_message_n_times(string, num)
   end
 end
 
-def output_array
-  
+def output_array(array)
+  array.each {|i| puts i}
+  end
 end
 
 def return_string_array
